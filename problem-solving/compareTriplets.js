@@ -16,4 +16,4 @@ function compareTriplets(a, b) {
     return comp;
 }
 
-console.log(compareTriplets(a, b))
+console.log(compareTriplets(a, b));

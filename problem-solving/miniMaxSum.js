@@ -3,7 +3,7 @@ const numbersList = [4,7,8,1,3];
 function miniMaxSum(arr) {
     let sortedArray = arr.toSorted((a, b) => a - b);
 
-    console.log(`${getMin(sortedArray)} ${getMax(sortedArray)}`)
+    console.log(`${getMin(sortedArray)} ${getMax(sortedArray)}`);
     
 }
 
@@ -27,4 +27,4 @@ function getMax(arr){
     return max;
 }
 
-miniMaxSum(numbersList)
+miniMaxSum(numbersList);
